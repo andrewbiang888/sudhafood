@@ -1,0 +1,36 @@
+{
+  "short_name": "Sudha Food",
+  "name": "Sudha Food App",
+  "description": "Sudha Food is availible now to the public. Eat, cry, and fall in love.",
+  "icons": [
+    {
+      "src": "img/sudhafood.jpg",
+      "sizes": "48x48",
+      "type": "image/webp"
+    },
+    {
+      "src": "img/sudhafood.jpg",
+      "sizes": "120x120",
+      "type": "image/webp"
+    },
+    {
+      "src": "img/sudhafood.jpg",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/sudhafood.jpg",
+      "sizes": "72x72 96x96 128x128 256x256"
+    },
+    {
+      "src": "img/sudhafood.jpg",
+      "sizes": "72x72"
+    }
+  ]
+,
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "scope": "/myapp/",
+  "theme_color": "aliceblue",
+  "orientation": "portrait"
+}
