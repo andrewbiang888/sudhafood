@@ -9,17 +9,17 @@
 
 
     <title>Sudha Food | Indian Pop Up Restaurant</title>
-    <meta name="description" content="Sudha's Indian food is  3/4 is pure Indian, 1/4 pure Fijian inspired spicy. The best Indian food in Portland, OR just became accessible to the public. RSVP to taste Indian food so good that you will want to cry, curse yourself for not eating it everyday since birth, and change the way you think about healthy food." >
+    <meta name="description" content="Sudha's Indian food is  3/4 pure Indian, 1/4 pure Fijian inspired spicy. The best Indian food in Portland, OR just became accessible to the public. RSVP to taste Indian food so good that you will want to cry, curse yourself for not eating it everyday since birth, and change the way you think about healthy food." >
 
 
     <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
 
-  <!-- Web app configuration -->
+    <!-- Web app configuration -->
   	<meta name="apple-mobile-web-app-capable" content="yes">
   	<meta name="mobile-web-app-capable" content="yes">
   	<link rel="apple-touch-startup-image" href="img/sudhafood.jpg" media="(device-width: 320px)" sizes="750x1334">
@@ -39,5 +39,143 @@
     <meta property="og:url" content="https://andrewbiang888.github.io/sudhafood/">
     <meta property="og:image" content="img/sudhafood.jpg">
     <meta property="og:site_name" content="Sudha Food App">
-    <meta property="og:description" content="Sudha's Indian food is  3/4 is pure Indian, 1/4 pure Fijian inspired spicy. The best Indian food in Portland, OR just became accessible to the public. RSVP to taste Indian food so good that you will want to cry, curse yourself for not eating it everyday since birth, and change the way you think about healthy food.">
+    <meta property="og:description" content="Sudha's Indian food is  3/4 pure Indian, 1/4 pure Fijian inspired spicy. The best Indian food in Portland, OR just became accessible to the public. RSVP to taste Indian food so good that you will want to cry, curse yourself for not eating it everyday since birth, and change the way you think about healthy food.">
   </head>
+  <body>
+    <div class="container col-center">
+      <div class="container jumbotron landing">
+        <div class="container-fluid center">
+          <h1>Sudha Food</h1>
+          <h2>Eat, cry, then fall in love.</h2>
+        </div>
+      </div>
+      <br>
+      <div class="container" id="formcenter">
+        <div class="form">
+        <form class="questions">
+          <div id="question1">
+              <h3>What is your spicy tolerance?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="extra-spicy" value="extra-spicy">
+                  Extra Spicy
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="spicy" value="spicy">
+                  Spicy
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="mild" value="mild">
+                  Mild
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="none" value="none">
+                  None!
+                </label>
+              </div>
+          </div>
+          <div id="question2">
+              <h3>What nights do you have free?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="all-nights" value="all-nights">
+                  All nights
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="weekends-only" value="weekends-only">
+                  Weekends Only
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="friday-sunday" value="friday-sunday">
+                  Friday through Sunday
+                </label>
+              </div>
+          </div>
+          <div id="question3">
+              <h3>What is your food preference?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="vegan" value="vegan">
+                  Vegan
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="vegitarian" value="vegitarian">
+                  Vegitarian
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="birds-only" value="birds-only">
+                  Birds Only
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="everything" value="everything">
+                  Everything!
+                </label>
+              </div>
+          </div>
+          <div id="question4">
+              <h3>Do you want to bring a guest?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="yes" value="yes">
+                  Yes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="no" value="no">
+                  No
+                </label>
+              </div>
+          </div>
+          <div id="question5">
+              <h3>Would you like wine with your meal?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="yes" value="yes">
+                  Yes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="no" value="no">
+                  No
+                </label>
+              </div>
+          </div>
+        </form>
+      </div>
+      <div class="container answer">
+        <div id="spicy-vegan-guest">
+          <h1>Great News! Wednesday</h1>
+        </div>
+        <div id="mild-birds-guest">
+
+        </div>
+        <div id="none-everything-single">
+
+        </div>
+      </div>
+      <div class="container">
+        <p>
+          Please note, we currently only offer Friday popups.
+        </p>
+      </div>
+      </div>
+    </div>
+  </body>

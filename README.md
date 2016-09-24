@@ -6,7 +6,7 @@
 
 ###Description
 
-This website will tell you which pop up dinner you should RSVP for based on you meal and spice preference. (Developed Sep 23, 2016).
+This website will tell you which pop up dinner you should RSVP for based on your meal and spice preference. (Developed Sep 23, 2016).
 
 ###Quick Start
 
