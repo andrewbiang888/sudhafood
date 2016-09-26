@@ -2,6 +2,7 @@ body {
   background: url('../img/background.gif');
   width: 100%;
   height: 100%;
+  color: white;
 }
 
 .landing  {
@@ -17,17 +18,24 @@ body {
 .form {
   display: inline-block;
   background-color: white;
-  width: 370px;
+  width: auto;
   border: solid 2px black;
   border-radius: 5%;
   padding-left: 20px;
   padding-top: 20px;
+  color: black;
 
 }
 div#formcenter.container {
   margin:0 auto;
 }
+button {
+  padding-right: 20px !important;
+}
 
-#answer {
-  display: hidden;
+
+#spicyVeganGuest,
+#noneEverythingSingle,
+#mildBirdsGuest {
+  display: none;
 }

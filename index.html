@@ -13,7 +13,7 @@
 
 
     <script src="js/jquery-3.1.1.js"></script>
-
+    <script src="js/script.js"></script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -52,30 +52,30 @@
       <br>
       <div class="container" id="formcenter">
         <div class="form">
-        <form class="questions">
+        <form id="questions">
           <div id="question1">
               <h3>What is your spicy tolerance?</h3>
               <div class="radio">
                 <label>
-                  <input type="radio" name="extra-spicy" value="extra-spicy">
+                  <input type="radio" name="spiceLevel" value="extraSpicy">
                   Extra Spicy
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="spicy" value="spicy">
+                  <input type="radio" name="spiceLevel" value="spicy">
                   Spicy
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="mild" value="mild">
+                  <input type="radio" name="spiceLevel" value="mild">
                   Mild
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="none" value="none">
+                  <input type="radio" name="spiceLevel" value="none">
                   None!
                 </label>
               </div>
@@ -84,19 +84,19 @@
               <h3>What nights do you have free?</h3>
               <div class="radio">
                 <label>
-                  <input type="radio" name="all-nights" value="all-nights">
+                  <input type="radio" name="night" value="allNights">
                   All nights
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="weekends-only" value="weekends-only">
+                  <input type="radio" name="night" value="weekendsOnly">
                   Weekends Only
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="friday-sunday" value="friday-sunday">
+                  <input type="radio" name="night" value="fridaySunday">
                   Friday through Sunday
                 </label>
               </div>
@@ -105,25 +105,25 @@
               <h3>What is your food preference?</h3>
               <div class="radio">
                 <label>
-                  <input type="radio" name="vegan" value="vegan">
+                  <input type="radio" name="preference" value="vegan">
                   Vegan
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="vegitarian" value="vegitarian">
+                  <input type="radio" name="preference" value="vegitarian">
                   Vegitarian
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="birds-only" value="birds-only">
+                  <input type="radio" name="preference" value="birdsOnly">
                   Birds Only
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="everything" value="everything">
+                  <input type="radio" name="preference" value="everything">
                   Everything!
                 </label>
               </div>
@@ -132,13 +132,13 @@
               <h3>Do you want to bring a guest?</h3>
               <div class="radio">
                 <label>
-                  <input type="radio" name="yes" value="yes">
+                  <input type="radio" name="guest" value="yes">
                   Yes
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="no" value="no">
+                  <input type="radio" name="guest" value="no">
                   No
                 </label>
               </div>
@@ -147,27 +147,30 @@
               <h3>Would you like wine with your meal?</h3>
               <div class="radio">
                 <label>
-                  <input type="radio" name="yes" value="yes">
+                  <input type="radio" name="wine" value="yes">
                   Yes
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input type="radio" name="no" value="no">
+                  <input type="radio" name="wine" value="no">
                   No
                 </label>
               </div>
           </div>
+          <br>
+          <button type="submit" class="btn btn-primary btn-lg" id="hidebutton">Submit</button>
+          <br>
         </form>
       </div>
       <div class="container answer">
-        <div id="spicy-vegan-guest">
+        <div id="spicyVeganGuest">
           <h1>Great News! Wednesday</h1>
         </div>
-        <div id="mild-birds-guest">
+        <div id="mildBirdsGuest">
 
         </div>
-        <div id="none-everything-single">
+        <div id="noneEverythingSingle">
 
         </div>
       </div>
