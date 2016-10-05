@@ -1,7 +1,8 @@
 <!-- Made by Andrew Erickson. Feel free to contact me at andyerickson2014@gmail.com -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +10,7 @@
 
 
     <title>Sudha Food | Indian Pop Up Restaurant</title>
-    <meta name="description" content="Sudha's Indian food is  3/4 pure Indian, 1/4 pure Fijian inspired spicy. The best Indian food in Portland, OR just became accessible to the public. RSVP to taste Indian food so good that you will want to cry, curse yourself for not eating it everyday since birth, and change the way you think about healthy food." >
+    <meta name="description" content="Sudha's Indian food is  3/4 pure Indian, 1/4 pure Fijian inspired spicy. The best Indian food in Portland, OR just became accessible to the public. RSVP to taste Indian food so good that you will want to cry, curse yourself for not eating it everyday since birth, and change the way you think about healthy food.">
 
 
     <script src="js/jquery-3.1.1.js"></script>
@@ -20,13 +21,13 @@
 
 
     <!-- Web app configuration -->
-  	<meta name="apple-mobile-web-app-capable" content="yes">
-  	<meta name="mobile-web-app-capable" content="yes">
-  	<link rel="apple-touch-startup-image" href="img/sudhafood.jpg" media="(device-width: 320px)" sizes="750x1334">
-  	<link rel="apple-mobile-startup-image" href="img/sudhafood.jpg" media="(device-width: 320px)" sizes="750x1334">
-  	<meta name="apple-mobile-web-app-title" content="Sudha Food App">
-  	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  	<link rel="apple-touch-icon" href="img/sudhafood.jpg">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-startup-image" href="img/sudhafood.jpg" media="(device-width: 320px)" sizes="750x1334">
+    <link rel="apple-mobile-startup-image" href="img/sudhafood.jpg" media="(device-width: 320px)" sizes="750x1334">
+    <meta name="apple-mobile-web-app-title" content="Sudha Food App">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="img/sudhafood.jpg">
 
     <html manifest="/app.manifest">
     <link rel="manifest" href="app.manifest" style="text/cache-manifest">
@@ -40,145 +41,144 @@
     <meta property="og:image" content="img/sudhafood.jpg">
     <meta property="og:site_name" content="Sudha Food App">
     <meta property="og:description" content="Sudha's Indian food is  3/4 pure Indian, 1/4 pure Fijian inspired spicy. The best Indian food in Portland, OR just became accessible to the public. RSVP to taste Indian food so good that you will want to cry, curse yourself for not eating it everyday since birth, and change the way you think about healthy food.">
-  </head>
-  <body>
-    <div class="container col-center">
-      <div class="container jumbotron landing">
-        <div class="container-fluid center">
-          <h1>Sudha Food</h1>
-          <h2>Eat, cry, then fall in love.</h2>
-        </div>
-      </div>
-      <br>
-      <div class="container" id="formcenter">
-        <div class="form">
-        <form id="questions">
-          <div id="question1">
-              <h3>What is your spicy tolerance?</h3>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="spiceLevel" value="extraSpicy">
-                  Extra Spicy
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="spiceLevel" value="spicy">
-                  Spicy
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="spiceLevel" value="mild">
-                  Mild
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="spiceLevel" value="none">
-                  None!
-                </label>
-              </div>
-          </div>
-          <div id="question2">
-              <h3>What nights do you have free?</h3>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="night" value="allNights">
-                  All nights
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="night" value="weekendsOnly">
-                  Weekends Only
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="night" value="fridaySunday">
-                  Friday through Sunday
-                </label>
-              </div>
-          </div>
-          <div id="question3">
-              <h3>What is your food preference?</h3>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="preference" value="vegan">
-                  Vegan
-                </label>
-              </div>
-              <div class="radio">
-                <label>
+</head>
+
+<body>
+    <div class="container-fluid landing text-center">
+
+
+        <h1>Sudha Food</h1>
+        <h2>Eat, cry, then fall in love.</h2>
+
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 text-center" id="formcenter">
+                <div class="form col-centered">
+                    <form id="questions">
+                        <div class="basicInfo">
+                            <!-- FIRST NAME  -->
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" class="form-control" placeholder="First Name">
+                            <!-- LAST NAME  -->
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" class="form-control" placeholder="Last Name">
+                            <br>
+                        </div>
+                        <div id="question1">
+                            <h3>What is your spicy tolerance?</h3>
+                            <div class="radio">
+                                <label>
+                                  <input type="radio" name="spiceLevel" value="extraSpicy">Extra Spicy</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="spiceLevel" value="spicy">Spicy</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="spiceLevel" value="mild">Mild</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="spiceLevel" value="none">None!</label>
+                            </div>
+                        </div>
+                        <div id="question2">
+                            <h3>What nights do you have free?</h3>
+                            <div class="radio">
+                                <label><input type="radio" name="night" value="allNights">All nights</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="night" value="weekendsOnly">Weekends Only</label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="night" value="fridaySunday">Friday through Sunday</label>
+                            </div>
+                        </div>
+                        <div id="question3">
+                            <h3>What is your food preference?</h3>
+                            <div class="radio">
+                                <label><input type="radio" name="preference" value="vegan">Vegan</label>
+                            </div>
+                            <div class="radio">
+                                <label>
                   <input type="radio" name="preference" value="vegitarian">
                   Vegitarian
                 </label>
-              </div>
-              <div class="radio">
-                <label>
+                            </div>
+                            <div class="radio">
+                                <label>
                   <input type="radio" name="preference" value="birdsOnly">
                   Birds Only
                 </label>
-              </div>
-              <div class="radio">
-                <label>
+                            </div>
+                            <div class="radio">
+                                <label>
                   <input type="radio" name="preference" value="everything">
                   Everything!
                 </label>
-              </div>
-          </div>
-          <div id="question4">
-              <h3>Do you want to bring a guest?</h3>
-              <div class="radio">
-                <label>
+                            </div>
+                        </div>
+                        <div id="question4">
+                            <h3>Do you want to bring a guest?</h3>
+                            <div class="radio">
+                                <label>
                   <input type="radio" name="guest" value="yes">
                   Yes
                 </label>
-              </div>
-              <div class="radio">
-                <label>
+                            </div>
+                            <div class="radio">
+                                <label>
                   <input type="radio" name="guest" value="no">
                   No
                 </label>
-              </div>
-          </div>
-          <div id="question5">
-              <h3>Would you like wine with your meal?</h3>
-              <div class="radio">
-                <label>
+                            </div>
+                        </div>
+                        <div id="question5">
+                            <h3>Would you like wine with your meal?</h3>
+                            <div class="radio">
+                                <label>
                   <input type="radio" name="wine" value="yes">
                   Yes
                 </label>
-              </div>
-              <div class="radio">
-                <label>
+                            </div>
+                            <div class="radio">
+                                <label>
                   <input type="radio" name="wine" value="no">
                   No
                 </label>
-              </div>
-          </div>
-          <br>
-          <button type="submit" class="btn btn-primary btn-lg" id="hidebutton">Submit</button>
-          <br>
-        </form>
-      </div>
-      <div class="container answer">
-        <div id="spicyVeganGuest">
-          <h1>Great News! Wednesday</h1>
-        </div>
-        <div id="mildBirdsGuest">
+                            </div>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary btn-lg" id="hidebutton">Submit</button>
+                        <br>
+                    </form>
+                </div>
+                <div class="container answer">
+                    <div id="spicyVeganGuest">
+                        <h1>Great News! Wednesday</h1>
+                    </div>
+                    <div id="mildBirdsGuest">
 
-        </div>
-        <div id="noneEverythingSingle">
+                    </div>
+                    <div id="noneEverythingSingle">
 
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 text-center" id="reveal">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <p>
+                        Please note, we currently only offer Friday popups.
+                    </p>
+                    <br>
+                    <button class="btn btn-primary" id="reset" type="reset" name="reset">Reset</button>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="container">
-        <p>
-          Please note, we currently only offer Friday popups.
-        </p>
-      </div>
-      </div>
     </div>
-  </body>
+</body>

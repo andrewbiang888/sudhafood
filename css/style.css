@@ -11,8 +11,16 @@ body {
   background-size: cover;
   border: 2px solid darkgray;
   color: #000;
-  text-shadow: .5px .5px 0 #fff;
   background-position: center;
+
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.landing h1 {
+  font-size: 6em;
 }
 
 .form {
@@ -28,12 +36,20 @@ body {
 }
 div#formcenter.container {
   margin:0 auto;
+  float: none;
+
 }
-button {
+
+.basicInfo {
+  padding: 0 60px 0 40px;
+}
+
+button#hidebutton {
   padding-right: 20px !important;
+  margin-bottom: 15px !important;
 }
 
-
+#reset,
 #spicyVeganGuest,
 #noneEverythingSingle,
 #mildBirdsGuest {
