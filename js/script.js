@@ -24,7 +24,7 @@ $(document).ready(function() {
                     location.reload();
                 });
             } else if (preference === 'vegan'  || preference === 'vegitarian') {
-              $("#reveal").append("<h1> Great choice " + firstName + ", we serve vegie food! </h1>");
+              $("#reveal").append("<h1> Great Choice! Veggie food rocks " + firstName + ", Check out this gif: </h1> <br> <img src='http://i.giphy.com/xTiTnkZoCSqp3Dn6yk.gif'>");
             }
 
         } else {
